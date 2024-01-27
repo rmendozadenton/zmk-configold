@@ -116,10 +116,10 @@
  */
 
             bindings = <
-&kp GRAVE      &kp TILDE  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET                                         &kp KP_EQUAL  &kp N7        &kp N8        &kp N9        &kp N0           &kp KP_DOT
-&kp BACKSLASH  &kp PIPE   &kp DOLLAR     &kp PERCENT           &kp COLON              &kp UP                                            &kp DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS         &kp KP_MINUS
+&kp GRAVE      &kp TILDE  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET                                         &kp KP_EQUAL  &kp N7        &kp N8        &kp N9        &kp KP_DOT       &kp KP_PLUS
+&kp BACKSLASH  &kp PIPE   &kp DOLLAR     &kp PERCENT           &kp QUESTION           &kp UP                                            &kp DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON        &kp KP_MINUS
 &kp ESCAPE     &kp DEL    &kp EXCL       &kp AT                &kp HASH               &kp LEFT       &trans                     &trans  &kp RIGHT     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                          &trans                               &trans                 &kp BACKSPACE  &trans  &mo ADJ_L  &trans  &trans  &kp SPACE     &trans                      &none
+                          &trans                               &trans                 &kp BACKSPACE  &trans  &mo ADJ_L  &trans  &trans  &kp SPACE     &kp NUMBER_0                &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
